@@ -1,0 +1,15 @@
+.product-container{
+    height: 30rem;
+    background-position: center;
+    background-size: cover;
+    display: flex ;
+    flex-direction: column;
+    justify-content: end;
+}
+.product-header{
+    background-color: #ffff;
+}
+.product-header h1 {
+    font-size: 1.2rem;
+    font-weight: 400;
+}

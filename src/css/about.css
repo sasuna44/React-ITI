@@ -1,0 +1,24 @@
+/* about.css */
+
+.about-container {
+    position: relative;
+  }
+  
+  .about-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .about-container h1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 1; /* Ensure the text is above the image */
+  }
+  
+  /* Add styles for other elements as needed */
+  
